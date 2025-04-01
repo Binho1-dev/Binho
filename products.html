@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <h1 class="logo">EcoFriendly Shop</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="naturenest.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login2.html">Login</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>PRODUCTS</h2>
+        <input type="text" id="searchInput" onkeyup="searchProducts()" placeholder="Search for products..">
+
+        <h2>PRODUCTS AND SERVICES</h2>
+        <h2 class="animated-title">CUTLERY</h2>
+
+   <div class="product-grid">
+     <div class="product-card">
+      <img src="cutlery1.jpg" alt="">
+      <h3>Movable cutlery all in one</h3>
+      <p>$100<p>
+      <button class="add-to-cart" data-id="1" data-name="Biodegradable Plate" data-price="5.99">Add to Cart</button>
+     </div>
+
+     <div class="product-card">
+        <img src="cutlery2.jpg" alt="">
+        <h3>Naturenest Cutlery </h3>
+        <p>$19.9<p>
+        <button class="add-to-cart" data-id="1" data-name="Naturenest Cutlery" data-price="$19.9">Add to Cart</button>
+       </div>
+
+       <div class="product-card">
+        <img src="cutlery3.jpg" alt="">
+        <h3>Naturenest multicutlery all in one</h3>
+        <p>$290<p>
+        <button class="add-to-cart" data-id="1" data-name="Naturenest multicutlery all in one" data-price="5.99">Add to Cart</button>
+       </div>
+   </div>
+
+       <h2 class="animated-title">SUSTAINABLE CLEANING PRODUCTS</h2>
+       <div class="product-grid">
+       <div class="product-card">
+        <img src="deter1.jpg" alt="">
+        <h3>All Purpose Cleaner</h3>
+        <p>$22.5<p>
+        <button class="add-to-cart" data-id="1" data-name="All Purpose Cleaner" data-price="$22.5">Add to Cart</button>
+       </div>
+
+       <div class="product-card">
+        <img src="deter2.jpg" alt="">
+        <h3>Earth safe clean multipurpose cleaner</h3>
+        <p>$39<p>
+        <button class="add-to-cart" data-id="1" data-name="Earth safe clean multipurpose cleaner" data-price="$39">Add to Cart</button>
+       </div>
+
+       <div class="product-card">
+        <img src="deter3.jpg" alt="">
+        <h3>Naturenest Super Glass Cleaner</h3>
+        <p>$11<p>
+        <button class="add-to-cart" data-id="1" data-name="Naturenest Super Glass Cleaner" data-price="$11">Add to Cart</button>
+       </div>
+    </div>
+
+    <h2 class="animated-title">COMPOSTABLE FOOD CONTAINERS</h2>
+       <div class="product-grid">
+       <div class="product-card">
+        <img src="paper1.jpg" alt="">
+        <h3>Disposable Box</h3>
+        <p>$9<p>
+        <button class="add-to-cart" data-id="1" data-name="Disposable Box" data-price="$9">Add to Cart</button>
+       </div>
+
+       <div class="product-card">
+        <img src="paper2.jpg" alt="">
+        <h3>Pulp Lunchbox </h3>
+        <p>$13<p>
+        <button class="add-to-cart" data-id="1" data-name="Pulp Lunchbox" data-price="$13">Add to Cart</button>
+       </div>
+
+       <div class="product-card">
+        <img src="paper3.jpg" alt="">
+        <h3>Biodegradable Kraft Box</h3>
+        <p>$7<p>
+        <button class="add-to-cart" data-id="1" data-name="Biodegradable Kraft Box" data-price="$7">Add to Cart</button>
+       </div>
+    </div>
+        
+    </main>
+    
+    <script src="cart.js"></script>
+
+</body>
+</html>
